@@ -7,7 +7,6 @@ SECRET_KEY = "super-secret-key-change-me"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
-# Avoid bcrypt; use pbkdf2_sha256 which works well on Windows
 pwd_context = CryptContext(
     schemes=["pbkdf2_sha256"],
     default="pbkdf2_sha256",
