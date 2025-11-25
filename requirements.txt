@@ -7,3 +7,4 @@ python-jose[cryptography]
 pytest
 pytest-cov
 httpx
+python-multipart
